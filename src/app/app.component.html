@@ -1,8 +1,7 @@
-<table class="table table-striped">
+<table class="table">
   <tr>
-    <input type="text" class="form-control" placeholder="Categories" (input)="onChange($event)" [value]="search">
+    <input type="text" placeholder="Categories" (input)="onChange($event)" [value]="search">
   </tr>
-
   <tr *ngFor="let d of datas">
     <td>{{d}}</td>
   </tr>
